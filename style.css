@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.imp{
+    width:100%;
+    height: 100vh;
+    position:relative;
+    overflow: hidden;
+    background: linear-gradient(black,#1d2671,aqua,lightsalmon,#9c27);
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 0px 2px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    
+}
+.logo img{
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 33%;
+    border: ivory 2px solid;
+    border-radius: 60%;
+    border-style: inset;
+}
+.menu{
+    flex: 1;
+    text-align: right;
+}
+ul{margin-right: -245px;}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.info{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 45%;
+    left: -6%;
+    transform: translateY(-50%);
+}
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: -35%;
+    left: 6%;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+.feature img{
+    width: 150px;
+}
+.feature{position: absolute;}
+.i1{
+    top: -1%;
+    right: 10%;
+    transform: rotate(-90deg);
+}
+.i2{
+    top: 15%;
+    left: -10%;
+    transform: rotate(180deg);
+}
+.i3{
+    bottom: -5%;
+    left: -11%;
+    transform: rotate(90deg);
+}
+.i4{
+    bottom: 15%;
+    right: -2%;
+}
+.phone{
+    position: absolute;
+    width: 55%;
+    height: 55%;
+    top: 53%;
+    left: 6%;
+    transform: translateY(-50%);
+    z-index: 1;
+    border: black 11px solid;
+    border-radius: 55px;
+    
+}
+.control{
+    position: absolute;
+    right: -23%;
+    top: 55%;
+    transform: translateY(-50%);
+    text-align: centre;
+}
+.control:hover{
+    cursor: pointer;
+    color: blanchedalmond;
+}
+.control h3{
+    margin: 15px 0px;
+}
+#bu{
+    width: 10%;
+    height: 20%;
+}
+#bd{
+    width: 10%;
+    height: 20%;
+}
